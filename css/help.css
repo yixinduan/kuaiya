@@ -1,0 +1,114 @@
+#hmenu div:nth-child(2){
+	background-color: #fa7433;
+	
+}
+#hmenu div:nth-child(2) a{
+	color: white;
+}
+#main{
+	width: 100%;
+	height: 100%;
+}
+#hebanner{
+	width: 100%;
+	height: 174px;
+	background-color: #5878e9;
+	text-align: center;
+}
+#hebanner img{
+	height: 174px;
+	width: 60%;
+}
+#help{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+#help h2{
+	padding-left: 2%;
+	width: 78%;
+	margin: auto;
+	line-height: 40px;
+	font-size: 20px;
+    color: #FF4A19;
+    font-weight: bold;
+}
+#helptop{
+	border: #e0e0e0 solid 1px;
+	width: 80%;
+	height: 72px;
+	background-image: url(../项目素材/img/help-back.png);
+	background-position-y: -155px;
+	margin: auto;
+	padding-top: 180px;
+	position: relative;
+}
+#helptop p{
+	margin: auto;
+	width: 80%;
+	line-height: 24px;
+}
+#topsan{
+	width: 14px;
+	height: 8px;
+	background: url(../项目素材/img/arrow-bd.png) no-repeat;
+	position: absolute;
+	top: -8px;
+	left: 38px;
+}
+#helpbottom{
+	width: 80%;
+	height: 1956px;
+	margin: auto;
+	border: #e0e0e0 solid 1px;
+	background: #fafafa;
+	border-top-style: none;
+	padding-bottom: 40px;
+}
+#helpboleft{
+	width: 25%;
+	float: left;
+}
+#helpboright{
+	float: left;
+	width: 60%;
+	padding: 30px 60px 0 40px;
+	margin-bottom: 60px;
+	border-left: 1px solid #e0e0e0;
+}
+#helpboleft ul{
+	width: 80%;
+	margin-top: 30px;
+}
+#helpboleft ul li{
+	margin-left: 50px;
+	width: 155px;
+	height: 86px;
+	line-height: 86px;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	cursor: pointer;
+	border-bottom: 1px #e0e0e0 solid;
+}
+#helpboleft ul li:nth-child(3){
+	border-bottom: none;
+}
+#helpboleft ul li:nth-child(1){
+	background-color: white;
+	color: blue;
+}
+#list2,#list3{
+	display: none;
+}
+#helpboright ul h3{
+	font-size: 14px;
+	font-weight: bold;
+	background: url(../项目素材/img/hellp-xx.png) no-repeat left center;
+	color: #1D74D6;
+	padding-left: 30px;
+	line-height: 36px;
+}
+#helpboright ul p{
+	padding-left: 30px;
+	line-height: 30px;
+}

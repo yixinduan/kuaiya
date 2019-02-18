@@ -1,0 +1,241 @@
+body{
+	margin: 0;
+}
+#box{
+	width: 100%;
+    height: auto;
+    min-width: 1090px;
+    min-height: 100%;
+}
+#header{
+	min-width: 1090px;
+	height: 100px;
+	max-width: 1200px;
+	margin: auto;
+}
+#header #logo{
+	background-image: url(../项目素材/img/logo.png);
+	display: block;
+	width: 100px;
+	height: 100px;
+	float: left;
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#logo a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+#hmenu{
+	float: left;
+	margin-left: 11%;
+	line-height: 100px;
+	width: 50%;
+}
+#hmenu div:hover{
+	background-color: #FFBFBA;
+}
+#hmenu div{
+	float: left;
+	width: 100px;
+	line-height: 100px;
+	width: 25%;
+	text-align: center;
+}
+#hmenu div a{
+	width: 100%;
+	line-height: 100px;
+	display: block;
+	text-align: center;
+	font-size: 24px;
+    color: #616161;
+    font-weight: 600;
+}
+#en-login{
+	float: right;
+	margin-right: 40px;
+	line-height: 100px;
+}
+#en-login a{
+	color: black;
+}
+
+#footer{
+	background: #575757;
+    bottom: 0;
+    width: 100%;
+    height: 230px;
+    overflow: hidden;
+    position: relative;
+}
+#fcontent{
+	margin-top: 60px;
+	width: 80%;
+	margin-left: auto;
+    margin-right: auto;
+}
+#fleft{
+	width: 80%;
+	float: left;
+}
+#fmenu{
+	line-height: 30px;
+}
+#fmenu a,#fmenu i{
+	color: #929292;
+}
+#address,#cpright{
+	line-height: 40px;
+	color: #929292;
+}
+#company,#tel,#em{
+	color: #C6C6C6;
+}
+#fright{
+	margin-right: 60px;
+	width: 20%;
+	height: 100%;
+	background-image: url(../项目素材/img/footer-dp.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-position: left center;
+}
+#fright a{
+	display: block;
+	height: 100%;
+}
+#logandreg{
+	width: 100%;
+	height: 100%;
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	background-color: rgba(0,0,0,0.5);
+}
+#lrclose{
+	position: absolute;
+	right: 10px;
+	top:10px;
+	background: url(../项目素材/img/removeLogin.png);
+	display: block;
+	width: 23px;
+	height: 20px;
+	z-index: 50;
+}
+#larheader{
+	position: relative;
+	height: 40px;
+	background-color: white;
+}
+#larheader a{
+	display: inline-block;
+	width: 25px;
+	height: 40px;
+	position: absolute;
+	color: lightgray;
+}
+#larheader a:nth-child(1){
+	top: 10px;
+	left: 20px;
+	color: red;
+	position: relative;
+}
+#larheader a i{
+	display: block;
+	width: 30px;
+	height: 30px;
+	background: url(../项目素材/img/loginBg.png) no-repeat center center;
+	background-size: 100%;
+	position: absolute;
+	bottom: 2px;
+	left: -4px;
+}
+#larheader a:nth-child(2) i{
+	display: none;
+}
+#larheader a:nth-child(2){
+	top: 10px;
+	left: 60px;
+}
+#bgwhite{
+	width: 440px;
+	height:auto;
+	background-color: white;
+	position: relative;
+	left: 35%;
+	top: 50px;
+	padding-bottom: 20px;
+}
+#login{
+	padding: 40px 0 80px;
+	width: 420px;
+	margin: 100px auto;
+	background-color: #EEEEEE;
+	text-align: center;
+}
+#login input{
+	width: 360px;
+	height: 30px;
+}
+#login dt:nth-child(2){
+	margin-top: 10px;
+}
+#login input:nth-child(3){
+	width: 370px;
+	height: 35px;
+	background-color: #FF6029;
+	border: 1px solid #FF6029;
+	margin-top: 10px;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+}
+#login dd{
+	line-height: 30px;
+	color: lightgray;
+	text-align: left;
+	padding-left: 20px;
+}
+#register{
+	padding: 20px 0;
+	width: 420px;
+	background-color: #EEEEEE;
+	text-align: center;
+	margin: 40px auto;
+}
+#register p{
+	color: lightgray;
+	font-weight: bold;
+	margin-left: 40px;
+	line-height: 30px;
+}
+#register input{
+	width: 360px;
+	height: 30px;
+}
+#register dd{
+	line-height: 30px;
+	color: lightgray;
+	text-align: left;
+	padding-left: 20px;
+}
+#register input:nth-child(7){
+	width: 10px;
+	height: 10px;
+}
+#register input:nth-child(9){
+	width: 370px;
+	height: 35px;
+	background-color: #FF6029;
+	border: 1px solid #FF6029;
+	margin-top: 10px;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+}
